@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../assets/index.css';
+// import '../assets/index.css';
 
 export class LinkedIn extends Component {
   static propTypes = {
@@ -69,6 +69,6 @@ export class LinkedIn extends Component {
 LinkedIn.defaultProps = {
   className: 'btn-linkedin',
   disabled: false,
-  children: (<img src={require('../assets/linkedin.png')} alt="Log in with Linked In" style={{ maxWidth: '180px' }} />),
+//   children: (<img src={require('../assets/linkedin.png')} alt="Log in with Linked In" style={{ maxWidth: '180px' }} />),
 };
 export default LinkedIn;
